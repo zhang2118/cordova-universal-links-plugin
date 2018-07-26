@@ -75,6 +75,8 @@
     <source-file src="src/ios/Utils/NSBundle+CULPlugin.m" target-dir="Utils/"/>
     <header-file src="src/ios/Utils/NSBundle+CULPlugin.h" target-dir="Utils/"/>
 
+    <preference name="UseSwiftLanguageVersion" value="3" />
+
   </platform>
 
   <platform name="android">
@@ -103,4 +105,5 @@
     <source-file src="src/android/com/nordnetab/cordova/ul/UniversalLinksPlugin.java" target-dir="src/com/nordnetab/cordova/ul/"/>
 
   </platform>
+  <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
 </plugin>
