@@ -75,8 +75,6 @@
     <source-file src="src/ios/Utils/NSBundle+CULPlugin.m" target-dir="Utils/"/>
     <header-file src="src/ios/Utils/NSBundle+CULPlugin.h" target-dir="Utils/"/>
 
-    <preference name="UseSwiftLanguageVersion" value="3" />
-
   </platform>
 
   <platform name="android">
@@ -106,4 +104,5 @@
 
   </platform>
   <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
+  <preference name="UseSwiftLanguageVersion" value="3" />
 </plugin>
